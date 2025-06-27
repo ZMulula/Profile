@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skills & Certifications | Shockey Mulula</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    /* Added to make all certificate images the same size */
+    .cert-img {
+      height: 250px;         /* fixed height */
+      object-fit: contain;   /* keep image ratio, no distortion */
+      width: 100%;           /* responsive width inside container */
+      max-width: 400px;      /* optional max width */
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg" style="background-color: #4a0624;">
+  <div class="container">
+    <a class="navbar-brand text-white fw-bold" href="index.html">SHOCKEY MULULA</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link text-white" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="skills.html">Skills</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Skills Section -->
+<section class="container mt-5 py-5 text-center" id="skills">
+  <div class="mb-5" data-aos="fade-up">
+    <h2 class="fw-bold">Skills & Certifications</h2>
+    <p class="fs-5">My toolkit blends software development, embedded systems, and AI.</p>
+  </div>
+
+  <div class="row g-4">
+    <!-- Programming -->
+    <div class="col-md-4" data-aos="fade-up">
+      <div class="p-4 border rounded shadow-sm bg-white h-100">
+        <h4>Programming Languages</h4>
+        <p>Python, C++, C, Embedded C, JavaScript, HTML, CSS, Assembly</p>
+      </div>
+    </div>
+
+    <!-- Web & Platforms -->
+    <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+      <div class="p-4 border rounded shadow-sm bg-white h-100">
+        <h4>Web & Platform Development</h4>
+        <p>Vue.js, Flask, SQL, MongoDB, GitHub, Bootstrap, Android Studio</p>
+      </div>
+    </div>
+
+    <!-- Embedded & Hardware -->
+    <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+      <div class="p-4 border rounded shadow-sm bg-white h-100">
+        <h4>Embedded Systems & Electronics</h4>
+        <p>STM32, TouchGFX, Digital Systems, Power Supply Design, PLC Ladder Logic</p>
+      </div>
+    </div>
+
+    <!-- AI & Data Science -->
+    <div class="col-md-4" data-aos="fade-up">
+      <div class="p-4 border rounded shadow-sm bg-white h-100">
+        <h4>AI & Data Science</h4>
+        <p>Microsoft AI Fluency, PyTorch, Deep Learning, MATLAB</p>
+      </div>
+    </div>
+
+    <!-- Security & Architecture -->
+    <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+      <div class="p-4 border rounded shadow-sm bg-white h-100">
+        <h4>Enterprise Security</h4>
+        <p>ISO 27001, NIST, POPIA, Security Architecture, Network Security</p>
+      </div>
+    </div>
+
+    <!-- Salesforce -->
+    <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+      <div class="p-4 border rounded shadow-sm bg-white h-100">
+        <h4>Salesforce & CRM</h4>
+        <p>Salesforce Admin, Platform App Builder, Apex, Flows, Reports</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Certifications Gallery -->
+  <div class="mt-5" data-aos="fade-up">
+    <h4 class="fw-bold mb-4">My Certifications</h4>
+    <div class="row justify-content-center g-3">
+      <div class="col-md-4">
+        <a href="certificates/salesforce-admin.pdf" target="_blank">
+          <img src="../Asset/Img/ll.png" class="img-fluid rounded shadow-sm cert-img" alt="Salesforce Admin Certificate">
+        </a>
+        <p class="mt-2">Salesforce Certified Administrator</p>
+      </div>
+      <div class="col-md-4">
+        <a href="certificates/ai-fluency.jpg" target="_blank">
+          <img src="../Asset/Img/AI.png" class="img-fluid rounded shadow-sm cert-img" alt="Microsoft AI Fluency Certificate">
+        </a>
+        <p class="mt-2">Microsoft AI Fluency</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-3 bg-dark text-white mt-5">
+  <p>Connect with me: 
+    <a href="https://github.com/ZMulula" target="_blank" class="text-white">GitHub</a> | 
+    <a href="https://www.linkedin.com/in/shockey-mulula-3059631b3/" target="_blank" class="text-white">LinkedIn</a>
+  </p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init({ duration: 1000, once: true });
+</script>
+
+</body>
+</html>
